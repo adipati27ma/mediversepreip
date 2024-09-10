@@ -3,9 +3,11 @@ package bootstrap
 
 import (
 	"github.com/sev-2/raiden/pkg/resource"
+	"mediversepreip/internal/models"
 )
 
 func RegisterModels() {
 	resource.RegisterModels(
+		&models.Doctors{},
 	)
 }
