@@ -14,7 +14,7 @@ func RegisterRoute(server *raiden.Server) {
 			Type:       raiden.RouteTypeRest,
 			Path:       "/doctors",
 			Methods:    []string{},
-			Controller: &controllers.BooksController{},
+			Controller: &controllers.DoctorsController{},
 			Model:      models.Doctors{},
 		},
 		{
