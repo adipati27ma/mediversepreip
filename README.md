@@ -1,2 +1,2 @@
 # mediversepreip
-Backend Golang setup using Raiden Framework for Supabase
+Backend Golang setup using Raiden Framework for Supabase (from scratch)
